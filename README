@@ -1,0 +1,9 @@
+TwitterGetter is a jQuery plugin for easily embedding a twitter user feed onto your site.
+======
+INSTRUCTIONS:
+-----
+	* $('your selector').getTweets(twitterID, numberOfTweets, addUserInfo?)
+	* 'your selector': where you want the tweets added. Tweets will replace the content of the element
+	* twitterID: ID of the twitter user. For @covington, use 'covington'
+	* numberOfTweets: number of tweets you want to display (ex: 5). Optional, defaults to 3
+	* addUserInfo?: do you want to add user pic, name, and a link the feed? If not, put false here. Optional, defaults to true.
